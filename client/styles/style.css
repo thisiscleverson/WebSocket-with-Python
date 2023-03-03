@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    font-family: 'Anton', sans-serif;
+}
+
+#game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.containerDisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+#input{
+    width: 100%;
+    max-width: 200px;
+    color:rgb(85, 86, 87);
+    border: 3px solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 50px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 33, 33);
+    width:  50px;
+    height: 50px;
+    font-size: 3rem;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#button:active{
+    border: 5px solid yellow;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 200px;
+    height: 40px;
+
+    margin-top: 25px;
+    padding: 10px 30px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+/***************************************[Game]***************************************************************/
